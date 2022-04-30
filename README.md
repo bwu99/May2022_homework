@@ -1,12 +1,12 @@
 ## Introduction
-This is for Guzman Energy 2021 Summer Full-Time/Part-Time Quant Internship recuriting. 
+This is for Guzman Energy 2022 Summer Full-Time/Part-Time Quant Internship recuriting. 
 - **Assignment 1-3 are required**. Assignment 4 is optional. (if you apply Full-Time position instead of Full-Time Intern, Assignment 4 is required.)
 - You can use either R or Python **(Recommended)** for coding.
 - Requirements:
   - create your own github repository for result delivery
   - PDF summary report for each assignment is required.
   - for python, create jupyter notebook file
-- **Due: before May 7th, 2021 5pm ET.** early delivey is welcomed.
+- **Due: before May 9th, 2022 5pm ET.** early delivey is welcomed.
 - Hints:
   - make your code neat and self explanatory
   - in summary report, provide your insights and conclusions
@@ -14,6 +14,7 @@ This is for Guzman Energy 2021 Summer Full-Time/Part-Time Quant Internship recur
 ## Assignment 1: Power Calendar function
 #### Objective: write R/Python function which returns number of hours by iso/peak.type/period
 In power market, the industry defines certain hour of each day to peak type for block trading, so we need to calculate correctly how many hours belongs to certain block. Each ISO has a little different definition of it. 
+_**Note: don't scrape data from the reference link. It's for reference only. You shall learn/understand the logic and calculate without access to any website.**_
 - See reference: https://www.energygps.com/HomeTools/PowerCalendar
 
 #### Required Function: get.hours(iso, peak.type, period)
