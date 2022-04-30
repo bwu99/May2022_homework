@@ -39,7 +39,7 @@ $num.hour
 [1] 352
 ```
 #### Hint:
-1.	In US, there are 7 major ISOs (PJMISO, MISO, ERCOT, SPPISO, NYISO are eastern, WECC and CAISO is western.) see https://www.ferc.gov/industries/electric/indus-act/rto.asp
+1.	In US, there are 7 major ISOs (PJMISO, MISO, ERCOT, SPPISO, NYISO are eastern, WECC and CAISO is western.) see https://www.ferc.gov/power-sales-and-markets/rtos-and-isos
 2.	HE, short for Hour Ending. HE2 means 01:00 - 02:00, HE14 means 13:00 - 14:00. For each single day, we have HE1 to HE24.
 3.	peak.type, eastern power market considers a HE to be onpeak, if it's a non-NERC holiday weekday from HE7 to HE22, the rest are offpeak HEs. If the peak.type is flat, that means every hour. (Hint, R package “timeDate” gives NERC holidays). 2x16H is HE7 to HE22 for the weekend and the NERC holiday. 7x8 is non HE7 to HE22 through the week. 
 4.	Western market accepts all the assumptions from Eastern, moreover, it takes Saturday as a weekday.
