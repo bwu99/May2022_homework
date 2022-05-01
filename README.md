@@ -6,7 +6,7 @@ This is for Guzman Energy 2022 Summer Full-Time/Part-Time Quant Internship recur
   - create your own github repository for result delivery
   - PDF summary report for each assignment is required.
   - for python, create jupyter notebook file
-- **Due: before May 9th, 2022 5pm ET.** early delivey is welcomed.
+- **Due: before May 16th, 2022 5pm ET.** early delivey is welcomed.
 - Hints:
   - make your code neat and self explanatory
   - in summary report, provide your insights and conclusions
